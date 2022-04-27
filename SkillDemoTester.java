@@ -4,6 +4,6 @@ import org.junit.*;
 public class SkillDemoTester {
     @Test
     public void concatenateTester(){
-        assertEquals("a b", DemoPractice.concatenate("a", "b"));
+        assertEquals("ab", DemoPractice.concatenate("a", "b"));
     }
 }
